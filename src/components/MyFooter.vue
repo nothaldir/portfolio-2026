@@ -2,17 +2,17 @@
   <footer id="links">
     <ul>
       <li>
-        <a href="mailto:alex.berneau@outlook.com">email</a>
-      </li>
-      <li>
         <a href="https://github.com/nothaldir" target="_blank" rel="noopener noreferrer">
-          github
+          GitHub
         </a>
       </li>
       <li>
         <a href="https://www.linkedin.com/in/alexberneau/" target="_blank" rel="noopener noreferrer">
-          linkedIn
+          LinkedIn
         </a>
+      </li>
+      <li>
+        <a href="mailto:alex.berneau@outlook.com">Email</a>
       </li>
     </ul>
   </footer>

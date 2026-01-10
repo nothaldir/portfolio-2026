@@ -23,7 +23,7 @@
 </template>
 
 <style scoped>
-p+p {
+p + p {
   margin-top: 2em;
 }
 </style>

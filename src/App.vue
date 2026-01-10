@@ -68,6 +68,7 @@ section {
   margin-top: 3rem;
 }
 
+a,
 a:active,
 a:visited {
   color: inherit;
