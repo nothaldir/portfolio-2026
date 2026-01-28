@@ -78,7 +78,7 @@ pre {
   padding: 1em;
   font-size: 0.7rem;
   letter-spacing: 0.2px;
-  overflow-x: scroll;
+  overflow-x: auto;
 
   a {
     color: inherit;
