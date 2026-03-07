@@ -7,7 +7,11 @@
         </a>
       </li>
       <li>
-        <a href="https://www.linkedin.com/in/alexberneau/" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://www.linkedin.com/in/alexberneau/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           LinkedIn
         </a>
       </li>
@@ -29,7 +33,7 @@ ul {
   list-style-type: none;
   padding: 0;
 
-  li+li {
+  li + li {
     margin-left: 1rem;
   }
 

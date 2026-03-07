@@ -56,15 +56,15 @@
 </template>
 
 <script setup lang="ts">
-import { computed } from 'vue'
+import { computed } from 'vue';
 
 const age = computed((): number => {
-  const birthDate = new Date(1994, 3, 24)
-  const diff_ms = Date.now() - birthDate.getTime()
-  const age_dt = new Date(diff_ms)
+  const birthDate = new Date(1994, 3, 24);
+  const diff_ms = Date.now() - birthDate.getTime();
+  const age_dt = new Date(diff_ms);
 
-  return Math.abs(age_dt.getUTCFullYear() - 1970)
-})
+  return Math.abs(age_dt.getUTCFullYear() - 1970);
+});
 </script>
 
 <style scoped>
