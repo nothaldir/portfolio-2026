@@ -3,7 +3,7 @@
     <code>
       <pre>{
   <span class="key">"name"</span>: "Alex Berneau",
-  <span class="key">"age"</span>: "{{ getAge }}",
+  <span class="key">"age"</span>: "{{ age }}",
   <span class="key">"languages"</span>: ["French", "English"],
   <span class="key">"expertise"</span>: "Front-End Engineer",
   <span class="key">"skills"</span>: [
@@ -58,7 +58,7 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 
-const getAge = computed((): number => {
+const age = computed((): number => {
   const birthDate = new Date(1994, 3, 24)
   const diff_ms = Date.now() - birthDate.getTime()
   const age_dt = new Date(diff_ms)

@@ -3,7 +3,7 @@
     <p>
       Hi there 👋,
       <br />
-      I'm Alex, a Front-End Engineer based in Paris, France.
+      I'm Alex, a Front-End Engineer with more than {{ experience }} years of experience based in Paris, France.
     </p>
     <p>
       I like working with modern JavaScript and TypeScript tools: Vue, Nuxt, Next and Supabase are
@@ -21,6 +21,19 @@
     <p>Thanks for stopping by!</p>
   </section>
 </template>
+
+<script setup lang="ts">
+import { computed } from 'vue'
+
+const experience = computed((): number => {
+  const today = new Date()
+  const year = today.getFullYear()
+  const diff = year - 2019
+
+  return diff
+})
+
+</script>
 
 <style scoped>
 p+p {
